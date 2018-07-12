@@ -413,9 +413,9 @@ i.fa.fa-long-arrow-right {
 
 .title h2 {
   font-size: 42px;
-  color: #777;
+  color: black;
   text-transform: capitalize;
-  font-weight: 10;
+  font-weight: 600;
 }
 
 
