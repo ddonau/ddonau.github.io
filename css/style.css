@@ -902,7 +902,7 @@ i.fa.fa-long-arrow-right {
 .portfolio-block:before {
   content: '';
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.1;
   top: 0;
   left: 0;
   right: 0;
@@ -912,7 +912,7 @@ i.fa.fa-long-arrow-right {
 }
 
 .portfolio-block:hover:before {
-  opacity: 1;
+  opacity: 0.4;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
@@ -926,37 +926,27 @@ i.fa.fa-long-arrow-right {
   opacity: 1;
 }
 
-.portfolio-block:hover .caption .search-icon {
-  opacity: 1;
-}
 
 .portfolio-block .caption {
   position: absolute;
-  bottom: 10%;
-  left: 10%;
+  bottom: 50%;
+  left: 35%;
   opacity: 0;
   z-index: 9;
   transition: all 0.3s ease-in-out;
+  text-transform:uppercase;
+  font-size: 0.2rem;
 }
 
 .portfolio-block .caption h4 {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .portfolio-block .caption h4 a {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.portfolio-block .caption .search-icon {
-  background: white;
-  color: #fff;
-  display: inline-block;
-  padding: 2px 2px;
-  font-size: 25px;
-  border-radius: 10px;
-  opacity: 0.1;
-}
 
 
 /*=================================================================
