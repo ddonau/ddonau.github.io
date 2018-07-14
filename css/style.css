@@ -1067,4 +1067,20 @@ i.fa.fa-long-arrow-right {
 .site-tagline a:hover {
     color: #2c2c2c;
 }
+
+
+@media only screen and (min-width: 801px)
+.projects-feed .project:nth-child(3n+1) .project-content-container::before {
+    border-top: 22px solid transparent;
+    border-left: none;
+    border-bottom: 22px solid transparent;
+    border-right: 22px solid white;
+    left: -22px;
+    top: 0;
+    bottom: 0;
+    right: initial;
+}
+
+
+
 /*# sourceMappingURL=maps/style.css.map */
